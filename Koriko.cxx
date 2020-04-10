@@ -44,7 +44,7 @@ line_t *variants(int hrz, int vrt)
 	const double levl = SeaLevl[hrz][vrt];
 	line_t *var = new line_t;
 
-    // loof around (hrz, vrt) point N, (W, E), S
+	// loof around (hrz, vrt) point N, (W, E), S
 	for (i = hrz - 1; i < hrz + 2; i += 1) {
 		fset = !fset;
 		if (i < 0 or i >= M) continue;
