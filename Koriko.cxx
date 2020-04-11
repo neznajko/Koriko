@@ -67,14 +67,12 @@ void set_gates(void)
 }
 /*  .   8   g   -   8   .   e   8   l   -   g   -   z */
 void walk(const Point &src, line_t *aux) /* tree walk */
-// tree walk
 {
 	static Point const &dst = B;
 	
 	aux->push_back(src);
 
 	if (src == dst) {
-		
 		stk.push_back(aux);
 		
 		return;
@@ -114,4 +112,5 @@ int main(void)
 	return 0;
 }
 /////////////////////////////////////////////////// log:
-// - S, He Mu ce KapaG! (4yBaE 7u?)
+// - S, He Mu ce KapaG!
+// - HsMa Be, cnoKo.
